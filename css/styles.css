@@ -1,0 +1,147 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Marvel', sans-serif;
+    color: white;
+    background-color: rgba(0, 45, 104, 0.753);
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+}
+
+
+/************************************* HEADER ****************************************/
+
+header {
+    text-align: center;
+    background-image: url(../img/fondo.jpg);
+    background-position: right;
+    background-color: rgba(164, 0, 0);
+    background-repeat: no-repeat;
+}
+
+header img {
+    width: 30%;
+    border: 5px groove #a40000;
+    margin: 10px;
+    position: relative;
+    left: 5%;
+    align-self: flex-start;
+}
+
+#header-top {
+    background-color: rgba(255, 217, 217, 0.2);
+    display: flex;
+}
+
+#header-bottom {
+    background-color: rgba(164, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 1vw;
+    padding: 1px;
+}
+
+#headerGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#navbar {
+    background-color: rgba(255, 217, 217, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#navbar button {
+    align-self: flex-end;
+    margin: 1%;
+    background-color: rgba(164, 0, 0);
+    padding: 8px;
+    font-family: 'Marvel', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+#navbar button:hover {
+    background-color: rgba(0, 70, 161, 0.925);
+}
+
+#navbar button:active {
+    border: thin groove rgba(164, 0, 0);
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#homebtn {
+    padding: 8px 19px;
+}
+
+
+/************************************* HOME ****************************************/
+
+#datos {
+    width: 60%;
+    position: relative;
+    left: 20%;
+    margin: 20px;
+}
+
+main h2 {
+    background-color: rgba(164, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 0.5vw;
+    padding: 0.5px 10px;
+}
+
+
+/************************************* FOOTER ****************************************/
+
+footer {
+    background-color: rgba(164, 0, 0);
+    text-align: center;
+    padding: 1px;
+}
+
+span {
+    font-weight: bold;
+}
+
+#redes {
+    margin-left: 20px;
+}
+
+#redes i {
+    border: thin solid white;
+    padding: 5px 8px;
+    color: white;
+    margin-left: 5px;
+}
+
+#redes i:hover {
+    color: rgba(164, 0, 0);
+    border: thin solid rgba(0, 70, 161, 0.925);
+    background-color: rgba(0, 45, 104, 0.753);
+}
+
+
+/******************************* SOBRE MI ***************************************/
+
+#sobremi {
+    text-align: justify;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    margin: 4% 0%;
+}
+
+#sobremi h1 {
+    background-color: rgba(164, 0, 0);
+}
